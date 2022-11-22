@@ -16,7 +16,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-steps:
+  steps:
       - name: Checkout repo
         uses: actions/checkout@v2
 
